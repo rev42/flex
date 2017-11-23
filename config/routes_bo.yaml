@@ -1,0 +1,14 @@
+bo_homepage:
+    path: /
+    defaults: { _controller: 'App\Controller\BoController::index' }
+    methods: GET
+
+bo_login:
+    path: /login
+    defaults: { _controller: 'App\Controller\BoController::login' }
+    methods: GET
+
+bo_login_post:
+    path: /login
+    defaults: { _controller: 'App\Controller\BoController::loginPost' }
+    methods: POST

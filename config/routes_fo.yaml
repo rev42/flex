@@ -1,0 +1,9 @@
+fo_homepage:
+    path: /
+    defaults: { _controller: 'App\Controller\FoController::index' }
+    methods: GET
+
+fo_redirect_to_home:
+    path: /testredirect
+    defaults: { _controller: 'App\Controller\FoController::test' }
+    methods: GET
