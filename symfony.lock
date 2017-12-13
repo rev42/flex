@@ -26,9 +26,6 @@
             "ref": "9f94d3ea453cd8a3b95db7f82592d7344fe3a76a"
         }
     },
-    "symfony/stopwatch": {
-        "version": "v3.3.13"
-    },
     "symfony/routing": {
         "version": "3.3",
         "recipe": {
@@ -77,9 +74,6 @@
     "symfony/cache": {
         "version": "v3.3.13"
     },
-    "doctrine/cache": {
-        "version": "v1.6.2"
-    },
     "symfony/framework-bundle": {
         "version": "3.3",
         "recipe": {
@@ -109,5 +103,11 @@
             "version": "3.3",
             "ref": "f75ac166398e107796ca94cc57fa1edaa06ec47f"
         }
+    },
+    "paragonie/random_compat": {
+        "version": "v2.0.11"
+    },
+    "symfony/polyfill-php70": {
+        "version": "v1.6.0"
     }
 }
