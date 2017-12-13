@@ -12,3 +12,13 @@ bo_login_post:
     path: /login
     defaults: { _controller: 'App\Controller\BoController::loginPost' }
     methods: POST
+
+bo_simpleform:
+    path: /simpleform
+    defaults: { _controller: 'App\Controller\BoController::simpleform' }
+    methods: GET
+
+bo_advancedform:
+    path: /advancedform
+    defaults: { _controller: 'App\Controller\BoController::advancedform' }
+    methods: GET
